@@ -8,7 +8,10 @@ end
 
 def summon_captain_planet(veggies)
   arr = []
-  
+  veggies.each do |veggie|
+    arr.push(veggie)
+  end
+  arr  
 end
 
 def long_planeteer_calls# code an argument here

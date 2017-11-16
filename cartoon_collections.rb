@@ -9,6 +9,8 @@ end
 def summon_captain_planet(veggies)
   arr = []
   veggies.each do |veggie|
+    veg = veggie.upcase
+    veg << "!"
     arr.push(veggie)
   end
   arr  

@@ -11,9 +11,9 @@ def summon_captain_planet(veggies)
   veggies.each do |veggie|
     veg = veggie.upcase
     veg << "!"
-    arr.push(veggie)
+    arr.push(veg)
   end
-  arr  
+  arr
 end
 
 def long_planeteer_calls# code an argument here
